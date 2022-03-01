@@ -1,13 +1,14 @@
 using DensityEstimationDatasets
 using Test
+using DataFrames: DataFrame
 
 @testset "API Tests" begin
 
-    file_train = twenty_dataset_names("plants", "train")
-    file_valid =  twenty_dataset_names("plants", "valid")
-    file_test =  twenty_dataset_names("plants", "test")
+    file_train = twenty_datasets_file("plants", "train")
+    file_valid =  twenty_datasets_file("plants", "valid")
+    file_test =  twenty_datasets_file("plants", "test")
 
-    @test file_train isa String && isfile(file_string)
+    @test file_train isa String && isfile(file_train)
     @test file_valid isa String && isfile(file_valid)
     @test file_test isa String && isfile(file_test)
 
