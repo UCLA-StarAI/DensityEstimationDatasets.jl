@@ -1,3 +1,4 @@
+[![Unit Tests](https://github.com/UCLA-StarAI/DensityEstimationDatasets.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/UCLA-StarAI/DensityEstimationDatasets.jl/actions/workflows/ci.yml)
 # DensityEstimationDatasets.jl
 
 Package to automatically download common density estimation datasets using `LazyArtifacts`. For example:
