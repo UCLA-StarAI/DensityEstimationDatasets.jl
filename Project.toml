@@ -1,0 +1,4 @@
+name = "DensityEstimationDatasets"
+uuid = "4461dd73-db61-4ee9-b68e-5875fb3b3faa"
+authors = ["Pasha Khosravi <khosravipasha@gmail.com>"]
+version = "0.1.0"
